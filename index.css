@@ -3,41 +3,13 @@
 	padding: 0;
 	font-family: century Gothic;
 }
-
-header{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Maldives.jpg");
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-
+#home {
+    background: #ea3a3a url(background.png) center top;
+    height: 100%;
+    padding: 0 !important;
+    text-align: center;
 }
 
-ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 25px;
-
-}
-ul li{
-	display: inline-block;
-}
-
-ul li a{
-	color: #ffffff;
-	padding: 5px 20px;
-	border: 1px solid #FFFFFF;
-	transition: 0.6s ease;
-}
-
-ul li a:hover{
-	background-color: #ffffff;
-	color: #000000;
-}
-
-.main{
-	max-width: 1275px;
-	margin: auto;
-}
 
 
 
