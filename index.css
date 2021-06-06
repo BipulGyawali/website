@@ -5,13 +5,17 @@
     vertical-align: top;
     box-sizing: border-box;
 }
-#background {
+body {
     background: #ea3a3a url(background.png) center top;
     height: 100%;
+    width: 100%;
     padding: 0 !important;
     text-align: center;
 }
 
+.home{
+    width: 100%;
+}
 
 #laptop {
     background: transparent url(laptop.png) no-repeat;
@@ -51,11 +55,42 @@
     margin-top: -173px;
     overflow: hidden;
     position: absolute;
-    text-align: left;
+    text-align: center;
     top: 50%;
     white-space: nowrap;
     width: 461px;
     z-index: 8;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
 }
+.text{
+    text-align: center;
+    font-size: 130px;
+    left: 3%;
+    top: 25%;
+    position: absolute;
+    
+    
+}
+
+.text span::after{
+    content: "";
+    position: absolute;
+    background: #ea3a3a;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 5px solid #ffffff;
+    animation: typing 2.3s steps(6) 0s 1 normal both;
+    white-space: nowrap;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+    }
+}
+
+
 
 
