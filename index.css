@@ -5,7 +5,7 @@
     vertical-align: top;
     box-sizing: border-box;
 }
-#background {
+body {
     background: #ea3a3a url(background.png) center top;
     height: 100%;
     padding: 0 !important;
