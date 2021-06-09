@@ -90,6 +90,47 @@ body {
         left: 100%;
     }
 }
+.socialmedia{
+    padding-left: 4.5%;
+    padding-top: 40%;
+}
+.soc{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+li{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    display: inline-block;
+    padding: 4rem;
+    padding-left: 0;
+}
+a{
+    color: white;
+    font-size: 3rem;
+
+}
+a:hover{
+    color: #0aaaf5;
+    cursor: pointer;
+    font-size: 4rem;
+    
+}
+@media all and (max-width: 500px) {
+    a{
+        font-size: 2.25rem;
+        width: 50%;
+    
+    }
+   
+}
+
+
+
+
+
 
 
 
