@@ -115,7 +115,7 @@ a{
 a:hover{
     color: #0aaaf5;
     cursor: pointer;
-    font-size: 4rem;
+    font-size: 3.7rem;
     
 }
 @media all and (max-width: 500px) {
