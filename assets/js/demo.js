@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     particleground(document.getElementById('particles'), {
-        dotColor: '#5cbdaa',
+        dotColor: '#bdb75c',
         lineColor: '#5cbdaa'
     });
     var intro = document.getElementById('intro');
